@@ -1,18 +1,4 @@
-setupRequired(utils)
-setupRequired(daf_persistence)
-setupRequired(obs_base)
-setupRequired(afw)
-setupRequired(meas_algorithms)
-setupRequired(pipe_tasks)
-setupRequired(pipe_base)
-setupRequired(pex_exceptions)
-setupRequired(pex_config)
-setupRequired(ip_isr)
-setupRequired(astro_metadata_translator)
 setupRequired(obs_decam_data)
-setupRequired(geom)
-
-setupOptional(testdata_decam)
 
 envPrepend(PYTHONPATH, ${PRODUCT_DIR}/python)
 envPrepend(PATH, ${PRODUCT_DIR}/bin)
